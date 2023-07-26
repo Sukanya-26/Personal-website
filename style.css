@@ -1,0 +1,110 @@
+.title{
+    background-color: rgb(168, 247, 248);
+  }
+  .container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.5fr auto;
+  }
+  .name{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+    color: black;
+  }
+  .bird{
+    display: flex;
+    justify-content: end;
+  }
+  .mypic{
+    border-radius: 70%;
+  }
+  .penguin{
+    margin-bottom: 0;
+    padding: 0;
+  }
+  .container2{
+    margin-top: 20px;
+    margin-bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.2fr;
+  }
+  .my{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(255, 157, 0) ;
+  }
+  .profile{
+    text-align: center;
+    font-weight: lighter;
+  }
+  .page-two{
+    background-color: whitesmoke;
+  }
+  .container3{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    border: 5px solid rgb(255, 157, 0);
+    background-color: whitesmoke;
+    gap: 0;
+  }
+  .item1{
+    text-align: center;
+    border: 2px solid rgb(255, 157, 0);
+    width: 100%;
+  }
+  .item2{
+    border: 2px solid rgb(255, 157, 0);
+    width: 100%;
+  }
+  .item3{
+    border: 2px solid rgb(255, 157, 0);
+    width: 100%;
+  }
+  .sec{
+    margin-left: 2%;
+    margin-right:2% ;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  .container4{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 0.4fr 1fr 1fr;
+    margin-bottom: 10px;
+  }
+  .first{
+    grid-area:1/1/2/-1;
+    text-align: center;
+  }
+  button{
+       border-radius: 5px;
+       height: 40px;
+       width: 100px;
+       background-color:  rgb(168, 247, 248);
+       border: 3px solid rgb(255, 157, 0) ;
+  }
+  .more{
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+  }
+  .butcon{
+    display: flex;
+    justify-content: center;
+  }
+  .foot{
+    margin-top: 10px;
+    background-color: rgb(168, 247, 248);
+    height: 70px;
+  }
+  .container5{
+    display: flex;
+    justify-content: space-around;
+  }
+  a{
+    color:rgb(255, 157, 0);
+  }
